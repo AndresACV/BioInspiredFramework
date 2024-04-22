@@ -13,7 +13,7 @@ class DataCleaner:
 
     @staticmethod
     def clean_dataframe(df):
-        """Cleans a pandas DataFrame by handling missing values and applying standardization."""
+        """Cleans a pandas DataFrame by handling missing values and applying standardization"""
         # Identify numeric columns
         numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns
 
